@@ -26,7 +26,10 @@ less efficient version of encoding, but still reveals many
 patterns. Pink means a mix of even and odd, black is all odd,
 and white is all even. 
 
-## Running
+## Running the code
 The GUI is made using Flet, a python GUI library. It also
 allows for automatic exporting of the files as executable applications.
 Details can be found here https://flet.dev/docs/cookbook/packaging-desktop-app/.
+
+## Running the Application
+Double click to run, but it takes a little while to open so be patient. Hopefully everything works.
