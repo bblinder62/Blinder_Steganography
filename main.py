@@ -35,7 +35,7 @@ def main(page: ft.Page):
             page.update()
             prev_value = text
 
-    # ALL CB's ARE CALLBACKS THAT HANDLE A GUI BUTON PRESS AND START THE RELATED FUNCTIONS
+    # ALL CB's ARE CALLBACKS THAT HANDLE A GUI BUTTON PRESS AND START THE RELATED FUNCTIONS
     def encrypt_cb_text(event):  # Button callback for encrypt button on text encryption page
         global back_image_large, back_image_small
         page.clean()
@@ -978,4 +978,4 @@ def main(page: ft.Page):
 
 
 ft.app(target=main, assets_dir="assets")  # USE THIS FOR APP
-# ft.app(target=main, port=8000, view=ft.AppView.WEB_BROWSER) #USE THIS FOR WEB BROWSER
+# ft.app(target=main, port=8000, assets_dir="assets", view=ft.AppView.WEB_BROWSER) #USE THIS FOR WEB BROWSER TESTING
